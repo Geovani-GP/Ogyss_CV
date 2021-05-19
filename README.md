@@ -1,6 +1,6 @@
 
 
-<center> 
+
 
 # CV de Ogyss en construcción
 
@@ -8,7 +8,7 @@
 
 ### Pronto estaremos en linea....
 
-</center>
+
 
 
 
