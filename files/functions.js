@@ -3769,7 +3769,7 @@ Webflow.define('branding', function($, _) {
   return api;
 });
 
-const countEL = document.getElementById("count");
+const countEL = document.getElementById("contador");
 updateCount();
 
 function updateCount(){
