@@ -453,6 +453,7 @@ p {
   padding-right: 15px;
   padding-left: 15px;
 }
+
 html.w-mod-js.w-mod-no-ios *[data-ix="from-bottom"] {
   -webkit-transform: translate(0px, 200px);
   -ms-transform: translate(0px, 200px);
@@ -624,3 +625,11 @@ html.w-mod-js.w-mod-no-ios *[data-ix="popup-6"] {
     padding-bottom: 20px;
   }
 }
+
+#contador{
+color:white;
+font-weight:bold;
+margin:14px;
+position:absolute;
+}
+

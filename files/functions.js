@@ -3768,6 +3768,19 @@ Webflow.define('branding', function($, _) {
   // Export module
   return api;
 });
+
+const countEL = document.getElementById("count");
+updateCount();
+
+function updateCount(){
+  fetch("https://api.countapi.xyz/hit/olga-pc.ddns.net/visits")
+    .then((res) => res.json())
+    .then((res) =>{
+      countEL.innerHTML=res.value;
+    });
+}
+
+
 /**
  * ----------------------------------------------------------------------
  * Webflow: Interactions: Init
